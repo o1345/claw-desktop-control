@@ -2,6 +2,9 @@
 
 **Windows desktop control skill for OpenCode AI agents**
 
+> 🤖 This project was entirely AI-generated. The human author (o1345) does not write code — every line was produced by AI agents during interactive sessions.  
+> If you find issues or want improvements, please open an issue rather than contacting the author directly — the AI can fix anything.
+
 Drive the real mouse, keyboard, and screen using PowerShell + Win32 APIs — zero external dependencies, no pip install, no npm, no SSH.
 
 ## Features
