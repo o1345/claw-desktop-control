@@ -7,6 +7,14 @@
 
 Drive the real mouse, keyboard, and screen using PowerShell + Win32 APIs — zero external dependencies, no pip install, no npm, no SSH.
 
+## Story
+
+This project started as a casual chat about Python's advantages. The AI mentioned that **Microsoft had built virtual mouse and keyboard APIs into Windows decades ago** (`SetCursorPos`, `mouse_event`, `SendKeys` — dating back to the Windows 95 era). The human author immediately realized: *if an AI can call these APIs, the AI gains hands — it can see the screen, move the cursor, click buttons, and type text, just like a human operating a computer.*
+
+The original prototype (`E:\AI\claw\`) was SSH-based, designed to remote-control Windows from Linux. But the real breakthrough was realizing the same techniques could work **locally with zero dependencies** — every Windows machine already has PowerShell and the Win32 APIs built in. No Python package, no Node.js module, no SSH tunnel. Just an AI agent talking directly to Windows.
+
+The entire codebase was produced through interactive AI chat sessions. The human author never wrote a single line of code manually.
+
 ## Features
 
 - **Mouse**: move, click (left/right/middle), double-click, scroll wheel
